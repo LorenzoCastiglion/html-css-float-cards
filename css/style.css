@@ -20,7 +20,7 @@
 }
 
 
-p{
+p{  
     color:black;
     
 }
@@ -45,25 +45,28 @@ h1{
 img{
     width: 100px;
     float: left;
+    vertical-align: center;
 }
 
 .nomi{
-    float: left;
+    /* display: inline-block; */
     text-align: left;
-    v
+    padding: 10px 100px;
+    
+    
 }
 
 
 .scheda{
    color: white;
-   padding:  5px 20px;   
+   padding:  3px 20px;   
 }
 
 .card{
-    width: calc(( 100% - 100px) / 3);
+    width: calc(( 100% - 90px) / 3);
     box-shadow: 5px -5px 20px  #b0adad;
     background-color: black;
-    display: inline-block;
+    float: left;
     margin: 15px;
     
 }

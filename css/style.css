@@ -1,0 +1,77 @@
+/* utility */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* styles */
+
+.descrizione{
+    padding-bottom: 30px;
+}
+
+
+p{
+    color:black;
+    
+}
+
+main{
+    background-color: white;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    padding: 50px;
+    min-width: 1200px;
+}
+
+h1{
+    font-size: 35px;
+    padding-bottom: 30px;
+    font-family: 'Fredoka One', sans-serif;
+    color: #E53170;
+}
+
+
+img{
+    width: 100px;
+    float: left;
+}
+
+.nomi{
+    float: left;
+    text-align: left;
+    v
+}
+
+
+.scheda{
+   color: white;
+   padding:  5px 20px;   
+}
+
+.card{
+    width: calc(( 100% - 100px) / 3);
+    box-shadow: 5px -5px 20px  #b0adad;
+    background-color: black;
+    display: inline-block;
+    margin: 15px;
+    
+}
+
+.nome{
+    font-family: 'Fredoka One', sans-serif; 
+}
+
+.email{
+    color: deepskyblue;
+}

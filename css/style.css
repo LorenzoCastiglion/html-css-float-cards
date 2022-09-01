@@ -1,13 +1,13 @@
 /* utility */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto';
 }
 
-.clearfix{
+.clearfix {
     content: "";
     display: table;
     clear: both;
@@ -15,66 +15,70 @@
 
 /* styles */
 
-.descrizione{
-    padding-bottom: 30px;
+.descrizione {
+    padding: 20px;
 }
 
 
-p{  
-    color:black;
-    
+p {
+    color: black;
+
 }
 
-main{
+main {
     background-color: white;
     margin: 0 auto;
     width: 80%;
     text-align: center;
-    padding: 50px;
+    padding: 20px;
     min-width: 1200px;
 }
 
-h1{
+h1 {
     font-size: 35px;
-    padding-bottom: 30px;
+    padding: 20px;
     font-family: 'Fredoka One', sans-serif;
     color: #E53170;
 }
 
 
-img{
-    width: 100px;
+img {
+    margin-right: 20px;
+    height: 100%;
     float: left;
-    vertical-align: center;
 }
 
-.nomi{
+.nomi {
     /* display: inline-block; */
     text-align: left;
-    padding: 10px 100px;
-    
-    
+    padding: 10px 10px;
+    height: 100px;
+
+
 }
 
 
-.scheda{
-   color: white;
-   padding:  3px 20px;   
+.scheda {
+    color: white;
+    padding: 3px;
 }
 
-.card{
-    width: calc(( 100% - 90px) / 3);
-    box-shadow: 5px -5px 20px  #b0adad;
+.card {
+    width: calc((100% - 90px) / 3);
+    height:100px;
+    box-shadow: 5px -5px 20px #b0adad;
     background-color: black;
     float: left;
     margin: 15px;
-    
+
 }
 
-.nome{
-    font-family: 'Fredoka One', sans-serif; 
+.nome {
+    font-family: 'Fredoka One', sans-serif;
 }
 
-.email{
+.email {
     color: deepskyblue;
 }
+
+
